@@ -1,4 +1,4 @@
-public class Dama extends Peca {
+public class Dama extends Piece {
     public Dama(boolean corBranca) {
         super(corBranca);
     }

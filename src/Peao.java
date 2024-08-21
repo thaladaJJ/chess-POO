@@ -1,4 +1,4 @@
-public class Peao extends Peca {
+public class Peao extends Piece {
     public Peao(boolean corBranca) {
         super(corBranca);
     }

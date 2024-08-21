@@ -2,16 +2,16 @@ import java.util.*;
 
 public class Jogador {
     private String nome;
-    private Peca[] pecas;
+    private Piece[] pieces;
     private boolean[] ativas;
 
-    public Jogador(String nome, Peca[] pecas, int inicio) {
+    public Jogador(String nome, Piece[] pieces, int inicio) {
         this.nome = nome;
-        this.pecas = new Peca[16];
+        this.pieces = new Piece[16];
         this.ativas = new boolean[16];
 
         for(int i = 0; i < 16; i++) {
-            this.pecas[i] = pecas[i+inicio];
+            this.pieces[i] = pieces[i+inicio];
             this.ativas[i] = true;
         }
     }

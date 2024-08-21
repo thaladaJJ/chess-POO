@@ -1,8 +1,8 @@
-public abstract class Peca {
+public abstract class Piece {
     protected boolean corBranca;
     protected boolean emJogo;
 
-    public Peca(boolean cor) {
+    public Piece(boolean cor) {
         this.corBranca = cor;
         this.emJogo = true;
     }

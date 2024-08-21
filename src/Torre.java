@@ -1,4 +1,4 @@
-public class Torre extends Peca {
+public class Torre extends Piece {
     public Torre(boolean corBranca) {
         super(corBranca);
     }

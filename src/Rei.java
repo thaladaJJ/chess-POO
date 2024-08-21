@@ -1,4 +1,4 @@
-public class Rei extends Peca {
+public class Rei extends Piece {
 
     public Rei(boolean corBranca) {
         super(corBranca);

@@ -1,4 +1,4 @@
-public class Bispo extends Peca {
+public class Bispo extends Piece {
     public Bispo(boolean corBranca) {
         super(corBranca);
     }

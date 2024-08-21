@@ -2,7 +2,7 @@ public class Casa {
     private boolean corBranca;
     private final int linha;
     private final char coluna;
-    private Peca ocupadaPor;
+    private Piece ocupadaPor;
 
     public Casa(boolean corBranca, int linha, char coluna) {
         this.corBranca = corBranca;
@@ -11,7 +11,7 @@ public class Casa {
         this.ocupadaPor = null;
     }
 
-    public void ocupar(Peca p) {
+    public void ocupar(Piece p) {
         this.ocupadaPor = p;
     }
 

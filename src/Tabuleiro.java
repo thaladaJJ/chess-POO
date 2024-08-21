@@ -1,7 +1,7 @@
 public class Tabuleiro {
     Casa[][] tabuleiro = new Casa[8][8];
 
-    public Tabuleiro(Peca[] pecas) {
+    public Tabuleiro(Piece[] pieces) {
         for(int i = 0; i < 8; i++) {
             for(int j = 0; j < 8; j++) {
                 if(i % 2 == j % 2)
@@ -14,11 +14,11 @@ public class Tabuleiro {
         int pos = 0;
         for(int i = 0; i < 2; i++) {
             for (int j = 0; j < 8; j++)
-                tabuleiro[i][j].ocupar(pecas[pos++]);
+                tabuleiro[i][j].ocupar(pieces[pos++]);
         }
         for(int i = 7; i >= 6; i--) {
             for (int j = 0; j < 8; j++)
-                tabuleiro[i][j].ocupar(pecas[pos++]);
+                tabuleiro[i][j].ocupar(pieces[pos++]);
         }
 
     }
